@@ -33,7 +33,7 @@ body {
   padding: 10px 0;
 }
 .gjs-heading {
-    font-family:'Brasileiro';
+    font-family:'Brasileiro' !important;
   margin: 0;
 }
 .gjs-heading {
@@ -616,7 +616,7 @@ body {
     flex-direction: column;
   }
   #iyl7ns {
-    flex: 1 1 0%;
+    
     align-self: flex-start;
   }
   #iiacm {
