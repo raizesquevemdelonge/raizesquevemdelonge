@@ -10,9 +10,13 @@
 	<style>
 		@font-face {
 	font-family: "Brasileiro";
-	src:url("./Brasilero2018Free.otf") format("opentype")
-	
+	src:url("./Brasilero2018Free.otf") format("opentype");
+	font-feature-settings: "calt" 0;
 	}
+
+  @font-feature-values "Brasileiro" { 
+    @stylistic { alternates: 0; } 
+  }
 	
  	 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
@@ -26,31 +30,7 @@
 	}
 </script>
   <body id="iau9">
-    <div class="gjs-grid-row" id="i6po">
-      <div class="gjs-grid-column" id="itjq">
-        <div class="gjs-grid-row" id="iyd2">
-          <div class="gjs-grid-column" id="iffs">
-            <div class="gjs-grid-row" id="it00l">
-              <div class="gjs-grid-column" id="irtfd">
-                <a class="gjs-link" id="icfyb" href="#feature-section"
-                  >Programação</a
-                ><a class="gjs-link" href="#feature-section" id="infmy1"
-                  >Detalhes do evento<br
-                /></a>
-              </div>
-              <div class="gjs-grid-column" id="icyzp">
-                <a class="gjs-link" id="i88iz" href="#testimonial-section"
-                  >O samba de roda</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="gjs-grid-column" id="id7x">
-            <a class="gjs-button" id="i1mew">Inscreva-se</a>
-          </div>
-        </div>
-      </div>
-    </div>
+   
     <div class="gjs-grid-row" id="feature-section">
       <div class="gjs-grid-column" id="imymf">
         <div class="gjs-grid-row" id="ib541">
@@ -65,9 +45,12 @@
               Mestre Jaime de Mar Grande chama para um novo momento da
               Paraguassu
             </h2>
+           
             <div id="igrx8" class="text-main-content">
               Vivências de capuêra angola e samba de roda tradicional da ilha de
               Itaparica.
+              <br>
+              <a href="#programacao" target="_self" style="color: rgb(56, 108, 176);text-decoration: underline; font-weight: medium;">ver a programação...</a>
             </div>
             <a
               id="iqx3z1"
@@ -86,28 +69,24 @@
         <div class="gjs-grid-row" id="i0xvjx">
           <div class="gjs-grid-column">
             <div id="irw9ed" class="text-main-content">
-              “Iê, é hora é hora”<br /><br />É a primavera que chega no mundo
-              anunciando a continuação no recomeço.<br />Dado o presente e com a
-              licença de quem veio antes: vamos nos reunir, “pra jogar conversa
-              dentro”.<br />Já se ouviu dizer que sem pessoas não tem capuêra.
-              Então, mais um motivo pra gente sentar no pé da árvore e ouvir o
-              que tem a ser dito.<br />E se a raiz vem de longe a árvore é
-              grande e se a árvore é grande, tem espaço pra todo mundo debaixo
-              dela.<br /><br />“Iê, galo cantou”<br />
+              “Iê, é hora é hora”<br /><br />É a primavera que continua chegando no mundo.
+              <br />Dado o presente e com a licença de quem veio antes: vamos nos reunir, “pra jogar conversa dentro” e festejar.
+              <br />Quem está sentindo que agora é o momento de aprofundar, tem mais um motivo pra vir compor a roda em baixo da grande árvore e ouvir o que tem a ser dito. <br />E se a raiz vem de longe a árvore é grande e se a árvore é grande, tem espaço pra todo mundo debaixo dela.
+              <br /><br />“Iê, galo cantou”<br />
             </div>
           </div>
           <div class="gjs-grid-column" id="imzugg">
             <img id="ip0ako" src="assets/composi__o_dende.png" />
           </div>
         </div>
-        <img id="ibj2yt" src="assets/wave_forms.png" />
+        <img id="ibj2yt" src="assets/wave_forms.png" style="width:100% !important;" />
       </div>
     </div>
     <div class="gjs-grid-row" id="igp6th">
       <div class="gjs-grid-column" id="iu7ozb">
         <div class="gjs-grid-row" id="ip3rrz">
           <div class="gjs-grid-column" id="imuxvu">
-            <h2 class="gjs-heading" id="iw1yls">Programação</h2>
+            <h2 class="gjs-heading titulo" id="programacao">Programação</h2>
             <div class="text-main-content" id="i8y4b5">
               Vamos fazer a roda onde se olha, se ouve e se fala. Depois vamos
               fazer a roda, o campo de mandinga, onde quem bobeia leva rasteira
@@ -123,14 +102,14 @@
 			  style="background-color: #fece14 !important;"
               >Inscreva-se</a>
           </div>
-          <div class="gjs-grid-column" id="i4m75a">
-            <img src="assets/logo_paraguassu.png" id="i58mj2" />
+          <div class="gjs-grid-column" id="i4m75a" style="align-items: center; justify-content: center;">
+            <img src="assets/logo_paraguassu.png" id="i58mj2" style="align-self: center;" />
           </div>
         </div>
         <div class="gjs-grid-row" id="ih1hso">
           <div class="gjs-grid-column feature-item" id="i1a2ee">
-            <h3 class="gjs-heading titulo" id="i1egpy">
-              Sexta feira 22/09 - Abertura, boas vindas e surpresa.
+            <h3 class="gjs-heading titulo" id="i1egpy" style="font-feature-settings: 'calt' 0 !important; font-variation-settings:'calt' 0 !important; ">
+              sexta feira 22/09 - Abertura, boas vindas e surpresa.
             </h3>
             <div class="text-main-content" id="i2try3">
               16h00 - Papuêra ao pé da árvore<br />18h00 - Angola na roda<br />20h00
@@ -139,12 +118,12 @@
           </div>
           <div class="gjs-grid-column feature-item" id="ij2w0f">
             <h3 class="gjs-heading titulo" id="ih0lkr">
-              Sábado 23/09 - Equinócio de Primavera
+              sábado 23/09 - Equinócio de Primavera
             </h3>
             <div class="text-main-content" id="i0zm9u">
               08h00 Café da Manhã<br />09h30 às 11h30 - Vivência de Samba de
               Roda Tradicional da Ilha de Itaparica (Na Feira Orgânica - Centro
-              de São Carlos)<br />12h30 Almoço no sítio<br />14h00 Papuêra<br />16h00
+              de São Carlos)<br />12h30 Almoço no sítio<br />14h00 Papuêra ao pé da árvore<br />16h00
               Café da tarde<br />17h00 Angola na roda<br />20h00 Janta<br />21h30
               Samba de Roda Paraguassu na Linha do Mar
             </div>
@@ -161,10 +140,10 @@
         </div>
         <div class="gjs-grid-row" id="iif6ca">
           <div class="gjs-grid-column feature-item" id="i9gywi">
-            <h3 class="gjs-heading titulo" id="izu5tx">
+            <h3 class="gjs-heading" id="izu5tx">
               Serão três dias de evento com alimentação e hospedagem/camping
-              inclusos e as diversas vivências com o Mestre Jaime de Mar Grande.
-              Tudo isso por R$160,00.<br />
+              inclusos e as diversas vivências com o Mestre Jaime de Mar Grande.<br>
+              <strong style="">Tudo isso por R$160,00.</strong><br />
             </h3>
             <a
               class="gjs-button"
@@ -260,7 +239,7 @@
             </div>
             <h3 class="gjs-heading titulo" id="iac3wq">Locais para dormir</h3>
             <div class="text-main-content" id="ihbd32">
-              Camping, Locais para pendurar redes e Alojamento (10 lugares.)
+              Camping, Locais para pendurar redes e Alojamento (14 lugares.)
             </div>
           </div>
           <div class="gjs-grid-column feature-item">
@@ -460,10 +439,9 @@
             </div>
             <h3 class="gjs-heading titulo" id="ivi79k">Crionçada.</h3>
             <div class="text-main-content" id="i8xjsg">
-              Pra quem está com a criança de dentro dormindo, acbomorda. E pra
-              quem cuida de uma ou mais crianças, vem que tem espaço pra todo
-              mundo brincar à vontade e uma programação especial para as
-              crianças durante as rodas de capuêra.
+              Pra quem está com a criança de dentro dormindo, acorda! 
+E pra quem cuida de uma ou mais crianças, vem que tem espaço pra todo mundo brincar à vontade e uma programação especial para as crianças durante as rodas de capuêra.
+
             </div>
           </div>
         </div>
@@ -474,7 +452,7 @@
             </span></span
           ><br />
         </div>
-        <img src="assets/9k_" id="ixz4j2" />
+        <iframe width="100%" height="auto" id="video" src="https://www.youtube.com/embed/9_vObNWvWMU?controls=1" title="Entrevista com Mestre Jaime" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
     <section class="gjs-section" id="if1qbk">
@@ -482,7 +460,7 @@
         <div class="gjs-grid-row" id="i9glxl">
           <div class="gjs-grid-column" id="i5v62s">
             <h2 class="gjs-heading titulo" id="iiacm">
-              Sítio Manacá - São Carlos SP<br />
+              sítio Manacá - são Carlos SP<br />
             </h2>
             <div id="ia8rtj" class="text-main-content">
               O Sítio fica escondido ao lado da cidade. Saindo da rodovia
@@ -514,10 +492,8 @@
               Vivência de samba de roda tradicional da Ilha de Itaparica.<br />
             </h2>
             <div class="text-main-content" id="ir59nh">
-              O samba de roda é uma manifestação popular afro-brasileira que tem
-              sua origem no Recôncavo Baiano. Reconhecido como Patrimônio
-              Imaterial da Humanidade, apresenta inúmeras variações de estilo,
-              de acordo com cada localidade onde ocorre. <br />
+              O samba de roda é uma manifestação popular afro-brasileira que tem sua origem no Recôncavo Baiano. Reconhecido como Patrimônio Imaterial da Humanidade, apresenta inúmeras variações de estilo, de acordo com cada localidade onde ocorre. 
+ <br />
             </div>
           </div>
           <div class="gjs-grid-column" id="iq2gc1">
@@ -527,23 +503,8 @@
         <div class="gjs-grid-row" id="i87vkd">
           <div class="gjs-grid-column" id="ita6oy">
             <div class="text-main-content" id="in1vy1">
-              Mestre Jaime de Mar Grande, nascido e criado na Gamboa, Município
-              de Vera Cruz, Ilha de Itaparica - BA, está dentro da cultura
-              popular, especialmente na capoeira e no samba de roda, há mais de
-              sessenta anos. Junto com mestre Quadrado (Gerson Francisco da
-              Anunciação, o ilustre cantador de chula “filho da Gamboa”) e os
-              sambadores Manteguinha e Rimun, ambos da comunidade do Baiacu,
-              mestre Jaime de Mar Grande criou e integrou o grupo “Samba
-              Tradicional da Ilha” que, em 2001, gravou um CD que leva este
-              mesmo nome. Em 2018, à frente do grupo de samba de roda Paraguassu
-              na Linha do Mar, lançou o CD “ Eu já canto há muitos anos”.<br /><br />Agora,
-              na ocasião da chegada da Primavera é significativa, não só pelo
-              momento de celebração que soa na natureza e na agricultura,
-              através da esperada reentrada das águas, como também pela
-              afinidade deste momento com os elementos característicos do Samba
-              de Roda Tradicional da Ilha, como a presença grandiosa do mar,
-              simultânea a certa leveza de brisa praieira e uma alegria natural
-              e inclusiva. <br />
+              Mestre Jaime de Mar Grande, nascido e criado na Gamboa, Município de Vera Cruz,  Ilha  de Itaparica - BA, está dentro da cultura popular, especialmente na capoeira e no samba de roda, há mais de sessenta anos. Idealizou, criou e integrou o grupo “Samba Tradicional da Ilha” ao lado do mestre Quadrado (Gerson Francisco da Anunciação, o ilustre cantador de chula “filho da Gamboa”) e dos sambadores Manteguinha e Rimun, ambos da comunidade do Baiacu - Itaparica. Em 2001, o grupo gravou um CD que leva este mesmo nome. Em 2018, à frente do grupo de samba de roda Paraguassu na Linha do Mar, também criado pelo mestre, lançou o álbum “Eu já canto há muitos anos”.
+              <br /><br />Agora, na ocasião da chegada da Primavera é significativa, não só pelo momento de  celebração que soa na natureza e na agricultura, através da esperada reentrada das águas, como também pela afinidade deste momento com os elementos característicos do Samba de Roda Tradicional da Ilha, como a presença grandiosa do mar, simultânea a certa leveza de brisa praieira e uma alegria natural e inclusiva. <br />
             </div>
           </div>
           <div class="gjs-grid-column" id="iw74aj">
@@ -686,8 +647,8 @@
               Nenete, mestra Aurinda, mestre Risadinha e mestre Madeira. A
               ancestralidade é manifestada na prática. Ao observar atos como
               este e muitos outros, identificamos a coerência entre o que se
-              fala e o que se faz. <br /><br />Na Paraguassu a capuêra é
-              cultivada no dia-a-dia como um modo atento e alegre de viver. <br />
+              fala e o que se faz. <br /><br /><b style="font-size: 1.8rem;">Na Paraguassu a capuêra é
+              cultivada no dia-a-dia como um modo atento e alegre de viver.</b><br />
             </div>
           </div>
           <div class="gjs-grid-column" id="i4l4xf">
