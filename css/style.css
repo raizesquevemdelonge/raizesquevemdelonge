@@ -663,13 +663,13 @@ body {
   gap: 50px;
 }
 #ios101 {
-  background-color: #fece14;
+  background-color: #fece14 !important;
   font-size: 1.7rem;
   color: #3f71b2;
   font-weight: 700;
 }
 #i02b0u {
-  background-color: #fece14;
+  background-color: #fece14 !important;
   font-size: 1.7rem;
   color: #3f71b2;
   font-weight: 700;
