@@ -60,6 +60,29 @@ body {
     padding: 10px 0;
 }
 
+#i6z361 {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 750px;
+    display: none;
+  }
+ 
+  #iqvo1o {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 750px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  #id1fjz {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 750px;
+  }
 #iqjl {
     flex: 0 1 auto;
 }
@@ -151,7 +174,9 @@ body {
 #icyzp {
     flex: 0 1 auto;
 }
-
+.texto-hidden{
+    display: none;
+}
 .text-content {
     line-height: 20px;
 }
@@ -1030,8 +1055,101 @@ body {
         margin-left: 0px;
     }
 }
+#ib69ti {
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
+  #id0rbq {
+    color: black;
+    width: 100%;
+    height: auto;
+  }
+  #iz2ujp {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 750px;
+  }
 
+  #ig8rwm {
+    flex-direction: row-reverse;
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
+  #inlkx6 {
+    color: black;
+    width: 88%;
+    height: auto;
+  }
+  #ikh8i3 {
+    color: black;
+    width: 88%;
+    height: auto;
+  }
+  #i0ydff {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 750px;
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #i2ktll {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 750px;
+  }
+  #iqkcsn {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    max-width: 750px;
+    color: rgb(56, 108, 176);
+  }
+  #i74yys {
+    gap: 20px;
+  }
+  #ivsamo {
+    background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.18) 10%,
+      rgba(254, 217, 61, 0.95) 47%,
+      white 90%
+    );
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+  }
 @media (max-width: 480px) {
+    #iqkcsn {
+        color: rgb(56, 108, 176);
+      }
+    #ikh8i3 {
+        width: 100%;
+      }
+    #inlkx6 {
+        width: 100%;
+      }
+    #ig8rwm {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: column;
+      }
+    #i6jc1k {
+        flex: 1 1 0%;
+        align-self: flex-start;
+      }
+    #irjw0y {
+        flex: 1 1 0%;
+        align-self: flex-start;
+      }
+
     #ibdk17 {
         flex-wrap: wrap;
         align-content: stretch;
