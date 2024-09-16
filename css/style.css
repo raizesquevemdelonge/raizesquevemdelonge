@@ -1115,6 +1115,7 @@ body {
     gap: 20px;
   }
   #ivsamo {
+    padding-top: 100px;
     background-image: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.18) 10%,
@@ -1127,7 +1128,19 @@ body {
     background-attachment: scroll;
     background-origin: padding-box;
   }
+
+  .gjs-section {
+    display: flex;
+    padding: 50px 0;
+  } 
+
+  #ipubc4{
+    max-width: 1200px;
+  }
 @media (max-width: 480px) {
+    #ib69ti {
+        flex-wrap: wrap;
+      }
     #iqkcsn {
         color: rgb(56, 108, 176);
       }
