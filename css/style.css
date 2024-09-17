@@ -1055,6 +1055,336 @@ body {
         margin-left: 0px;
     }
 }
+
+#iau9 {
+	font-family:Arial,Helvetica,sans-serif;
+	color:#475569;
+}
+.gjs-grid-column.feature-item {
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	display:flex;
+	flex-direction:column;
+	gap:15px;
+	min-width:30%;
+}
+.gjs-grid-column.testimonial-item {
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	display:flex;
+	flex-direction:column;
+	gap:15px;
+	min-width:45%;
+	background-color:rgba(247,247,247,0.23);
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	align-items:flex-start;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-top-color:rgba(0,0,0,0.06);
+	border-right-color:rgba(0,0,0,0.06);
+	border-bottom-color:rgba(0,0,0,0.06);
+	border-left-color:rgba(0,0,0,0.06);
+}
+.gjs-text-blue {
+	color:rgb(36,99,235);
+}
+#iqjqyu {
+	font-size:2.2rem;
+	margin-bottom:15px;
+	color:rgba(0,0,0,1);
+}
+#icvtoh {
+	color:black;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#isxzsz {
+	background-color:rgba(255,210,61,0.14);
+	flex-basis:1%;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	padding-left:15px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#i1yeq7 {
+	padding:10px;
+	max-width:750px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#i8xhsn {
+	background-color:rgba(255,210,61,0.14);
+	justify-content:flex-start;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	padding-left:15px;
+	flex-direction:column;
+}
+#ij4uf4 {
+	width:100%;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	gap:30px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:35px;
+	margin-left:0px;
+}
+#i1f8e6 {
+	font-size:2.5rem;
+	margin-bottom:10px;
+	max-width:750px;
+}
+#i99zyv {
+	max-width:1200px;
+	display:flex;
+	flex-direction:column;
+}
+#iscbgv {
+	justify-content:center;
+	padding-top:80px;
+	padding-bottom:50px;
+	padding-left:20px;
+	padding-right:20px;
+	background-image:linear-gradient(#edd819 1%,#edd819 100%);
+	background-position:0px 0px;
+	background-size:100% 100%;
+	background-repeat:round;
+	background-attachment:scroll;
+	background-origin:padding-box;
+}
+#i7wvnl {
+	padding:10px;
+	max-width:750px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#iqyoel {
+	font-size:2.2rem;
+	margin-bottom:15px;
+	color:rgba(0,0,0,1);
+}
+#ig720e {
+	color:black;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#igshit {
+	font-size:2.2rem;
+	margin-bottom:15px;
+	color:rgba(0,0,0,1);
+}
+#i4xcrl {
+	color:black;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#ikp6ht {
+	padding:10px;
+	max-width:750px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#imiu5w {
+	background-color:rgba(255,210,61,0.14);
+	flex-basis:1%;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	padding-left:15px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#iuld08 {
+	font-size:2.2rem;
+	margin-bottom:15px;
+	color:rgba(0,0,0,1);
+}
+#ighhof {
+	color:black;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#ituxsc {
+	padding:10px;
+	max-width:750px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#igifei {
+	background-color:rgba(255,210,61,0.14);
+	justify-content:flex-start;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	padding-left:15px;
+	flex-direction:column;
+}
+#ilzskf {
+	width:100%;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	gap:30px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:35px;
+	margin-left:0px;
+}
+#imnjbg {
+	font-size:2.2rem;
+	margin-bottom:15px;
+	color:rgba(0,0,0,1);
+}
+#ipgmzp {
+	color:black;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#i8rqyd {
+	background-color:rgba(255,210,61,0.14);
+	flex-basis:1%;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	padding-left:15px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+#isctnc {
+	padding:10px;
+	max-width:750px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#ikvarh {
+	background-color:rgba(255,210,61,0.14);
+	justify-content:flex-start;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	padding-left:15px;
+	flex-direction:column;
+}
+#ipp9z8 {
+	width:100%;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	gap:30px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:35px;
+	margin-left:0px;
+}
+@media (max-width:992px) {
+	.gjs-grid-row {
+	flex-direction:column;
+}
+.gjs-grid-row {
+	flex-direction:column;
+}
+}@media (max-width:768px) {
+	#icvtoh {
+	width:490px;
+}
+#ij4uf4 {
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:35px;
+	margin-left:0px;
+}
+#iscbgv {
+	padding-top:35px;
+	padding-right:20px;
+	padding-bottom:50px;
+	padding-left:20px;
+}
+#ig720e {
+	width:490px;
+}
+#i4xcrl {
+	width:490px;
+}
+#ighhof {
+	width:490px;
+}
+#ilzskf {
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:35px;
+	margin-left:0px;
+}
+#ipgmzp {
+	width:490px;
+}
+#ipp9z8 {
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:35px;
+	margin-left:0px;
+}
+
 #ib69ti {
     flex-direction: row;
     gap: 20px;
@@ -1141,6 +1471,13 @@ body {
     max-width: 1200px;
   }
 @media (max-width: 480px) {
+    #iscbgv {
+        background-color:#efefef;
+        flex-wrap:wrap;
+    }
+    #ig720e {
+        max-height:450px;
+    }
     #ib69ti {
         flex-wrap: wrap;
       }
