@@ -1475,6 +1475,11 @@ body {
     height: auto;
   }
 @media (max-width: 480px) {
+    .fotoMestre{
+        max-width: 450px;
+        height: auto;
+    }
+
     #iscbgv {
         background-color:#efefef;
         flex-wrap:wrap;
