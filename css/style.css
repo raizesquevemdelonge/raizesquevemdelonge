@@ -1476,7 +1476,7 @@ body {
   }
 @media (max-width: 480px) {
     .fotoMestre{
-        max-width: 450px;
+        max-width: 350px;
         height: auto;
     }
 
