@@ -1470,6 +1470,10 @@ body {
   #ipubc4{
     max-width: 1200px;
   }
+  video {
+    width: 100%;
+    height: auto;
+  }
 @media (max-width: 480px) {
     #iscbgv {
         background-color:#efefef;
