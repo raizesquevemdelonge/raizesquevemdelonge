@@ -1400,7 +1400,7 @@ body {
     padding: 10px;
     padding-left: 0px;
     padding-right: 0px;
-    max-width: 750px;
+    max-width: 350px;
   }
 
   #ig8rwm {
@@ -1446,6 +1446,8 @@ body {
   }
   #ivsamo {
     padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-image: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.18) 10%,
@@ -1465,7 +1467,7 @@ body {
     justify-content: center;
   } 
   img#if5fl2 {
-    max-width: 450px;
+    max-width: 350px;
 }
   #ipubc4{
     max-width: 1200px;
@@ -1475,6 +1477,12 @@ body {
     height: auto;
   }
 @media (max-width: 480px) {
+    #ivsamo {
+        
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .fotoMestre{
         max-width: 350px;
         height: auto;
