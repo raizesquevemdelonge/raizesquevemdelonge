@@ -1132,8 +1132,11 @@ body {
   .gjs-section {
     display: flex;
     padding: 50px 0;
+    justify-content: center;
   } 
-
+  img#if5fl2 {
+    max-width: 450px;
+}
   #ipubc4{
     max-width: 1200px;
   }
