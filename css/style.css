@@ -1478,6 +1478,9 @@ body {
     min-height: 480px;
   }
 @media (max-width: 480px) {
+    iframe{
+        height: 250px !important;
+    }
    
     #videoplayer {
         width: 100%;
