@@ -1475,6 +1475,7 @@ body {
   video {
     width: 100%;
     height: auto;
+    min-height: 480px;
   }
 @media (max-width: 480px) {
     #ivsamo {
