@@ -1472,14 +1472,14 @@ body {
   #ipubc4{
     max-width: 1200px;
   }
-  .video {
+  #videoplayer {
     width: 100%;
     height: auto;
     min-height: 480px;
   }
 @media (max-width: 480px) {
    
-    .video {
+    #videoplayer {
         width: 100%;
         height: 250px;
         
